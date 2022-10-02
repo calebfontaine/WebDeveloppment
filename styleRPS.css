@@ -1,0 +1,30 @@
+@charset "UTF-8"; 
+/* CSS Document */ 
+/* The body tag style applies to all elements on the page */ 
+body { 
+height: 50%;
+width: 50%;
+background-color: orange; 
+font-family: Verdana, Geneva, Arial, sans-serif; 
+padding:0px; 
+margin:0px; 
+} 
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */ 
+#wrapper {
+margin-left: auto; 
+margin-right: auto; 
+background-color:lightblue ; 
+} 
+ 
+/* Defining a style for a set of tags separated by commas applies the style to 
+all tags */ 
+h1,h2,h3,h4,h5,h6,p,li { 
+margin-left:15px; 
+} 
+#footer { 
+height:80px; 
+} 
+
+.clear{ 
+clear: both; 
+}
